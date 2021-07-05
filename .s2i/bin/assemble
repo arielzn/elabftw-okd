@@ -9,7 +9,7 @@ echo "---> Installing application source..."
 rm -fR /tmp/src/.git
 mv /tmp/src/* ./
 
-export ELABFTW_VERSION=4.0.3
+export ELABFTW_VERSION=4.0.5
 
 curl -L https://github.com/elabftw/elabftw/archive/refs/tags/${ELABFTW_VERSION}.tar.gz -o elabftw.tar.gz
 tar -xvf elabftw.tar.gz --strip-components=1
